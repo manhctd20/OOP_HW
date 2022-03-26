@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class bai1 {
+public class bai1_w1 {
 
     public static void main(String[] args) {
         int n, i, tempSort;

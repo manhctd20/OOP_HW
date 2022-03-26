@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class bai2 {
+public class bai2_w1 {
     int BinarySearch(int arr[], int l, int r, int x) {
         if (r >= l) {
             int mid = l + (r - l) / 2;
@@ -20,7 +20,7 @@ public class bai2 {
     public static void main(String args[]) {
 
         try (Scanner sc = new Scanner(System.in)) {
-            bai2 ob = new bai2();
+            bai2_w1 ob = new bai2_w1();
             int arr[] = { 1, 4, 6, 7, 8, 15, 20, 35, 41 };
             System.out.println("Mang la: ");
             int n = arr.length;
